@@ -1,0 +1,17 @@
+[project]
+name = "aoc-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.0.2",
+    "ruff>=0.14.8",
+]
+
+[project.scripts]
+aoc-2025 = "aoc_2025:main"
+
+[build-system]
+requires = ["uv_build>=0.9.16,<0.10.0"]
+build-backend = "uv_build"
